@@ -41,7 +41,7 @@ Edit the variables at the top of the script:
 - **Test in a staging environment first!**
 - Backups go to `/var/backups/nextcloud/<timestamp>/`.
 - If interrupted, the script attempts to disable maintenance mode.
-- Compatible with Nextcloud 20+; check the [documentação oficial](https://docs.nextcloud.com/server/stable/admin_manual/maintenance/update.html).
+- Compatible with Nextcloud 20+; check the [official documentation](https://docs.nextcloud.com/server/stable/admin_manual/maintenance/update.html).
 
 ## License
 
