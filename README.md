@@ -45,10 +45,8 @@ Edit the variables at the top of the script:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE).
+MIT License - see [LICENSE](https://raw.githubusercontent.com/Ricardo-Simoes/mydietpi-nextcloud-updater/refs/heads/main/LICENCE).
 
-## Contributions
-
-Forks and pull requests welcome! Report issues for bugs or improvements.
+## About
 
 Made for DietPi on the T95-Max-Plus. 😊
