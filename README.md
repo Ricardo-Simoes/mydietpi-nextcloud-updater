@@ -1,6 +1,6 @@
 # Nextcloud Manual Updater for DietPi
 
-This interactive script updates your Nextcloud installation on DietPi (with Lighttpd + PHP-FPM), keeping the `config/` and `data/` directories untouched. It's optimized for setups like yours on the Android T95-Max-Plus box.
+This interactive script updates your Nextcloud installation on a DietPi Linux (with Lighttpd + PHP-FPM), keeping the `config/` and `data/` directories untouched. It's optimized for Android box T95-Max-Plus setups, but it can be used elsewhere.
 
 ## Features
 
