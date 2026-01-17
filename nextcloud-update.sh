@@ -14,7 +14,7 @@ set -u
 # --------------------
 # CONFIG - adjust if needed
 # --------------------
-DEFAULT_VERSION="32.0.4"
+DEFAULT_VERSION="32.0.5"
 INSTALL_DIR="/var/www/nextcloud"
 DATA_DIR="/mnt/dietpi_userdata/nextcloud_data"
 WWW_USER="www-data"
