@@ -183,6 +183,11 @@ if [[ "$do_repair" =~ ^[Yy] ]]; then
   run_and_check sudo -u "$WWW_USER" php "$INSTALL_DIR/occ" maintenance:repair
 fi
 
+# 8.5) Restart PHP-FPM and web server to clear OPcache
+pause_confirm "Restarting PHP-FPM and Lighttpd to clear OPcache and reload code."
+run_and_check systemctl restart php8.2-fpm
+run_and_check systemctl restart lighttpd
+
 # 9) Disable maintenance mode
 pause_confirm "About to disable maintenance mode (occ maintenance:mode --off)."
 run_and_check sudo -u "$WWW_USER" php "$INSTALL_DIR/occ" maintenance:mode --off
